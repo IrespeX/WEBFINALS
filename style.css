@@ -1,0 +1,163 @@
+/* CSS Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("korea.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  color: #fff;
+}
+
+h1 {
+  margin: 0;
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+}
+
+.cart-icon img {
+  width: 75px;
+  height: 75px;
+  margin-right: 5px;
+}
+
+nav {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 10px;
+}
+
+li:last-child {
+  margin-right: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+a:hover {
+  background-color: #ccc;
+}
+
+#product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.product {
+  border: 1px solid #ffffff;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-name {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.product-price {
+  margin-top: 5px;
+  font-weight: bold;
+}
+
+.add-to-cart-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #666;
+}
+
+#cart-items {
+  padding: 250px;
+  background-image: url("korea3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#cart-items h2 {
+  margin-bottom: 10px;
+}
+
+#cart-items-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.cart-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.checkout-btn {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #666;
+}
+
+.back-arrow {
+  display: block;
+  margin-top: 20px;
+  color: #333;
+  text-decoration: none;
+}
+
+.back-arrow:hover {
+  color: #666;
+}
